@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		#ramji{
+			color: red;
+			font-weight: bold;
+			text-transform: uppercase;
+
+
+		}
+		#ramji2{
+			color: green;
+			font-weight: bold;
+			text-transform: uppercase;
+			position: relative;
+			left: 30px;
+		}
+		#we{
+			background-image: url(wok.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 200px;
+			width: 400px;
+			display: flex;
+			position: relative;
+			left: 50px;
+		}
+		#ram:hover{
+			background-color: yellow;
+		}
+		#jai:hover{
+			background-color: yellow;
+		}
+		#inside{
+			background-image: url(ram.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 200px;
+			width: 400px;
+			position: relative;
+			left: 921px;
+		}
+		#box{
+			position: relative;
+			left: 724px;
+			top: -34px;
+			height: 34px;
+			width: 78px;
+			background-color: red;
+			font-weight: bold;
+			color: white;
+			border: 2px	solid black;
+
+		}
+		#box:hover{
+			background-color: green;
+		}
+		#box1{
+			height: 34px;
+			width: 78px;
+			background-color: red;
+			font-weight: bold;
+			color: white;
+			border: 2px	solid black;
+		}
+		#box1:hover{
+			background-color: green;
+		}
+
+	</style>
+</head>
+<body>
+<script type="text/javascript" src="form.js"></script>
+<form>
+<!-- <div id="we" onmouseover="shyam2()" onmouseout="shyam3()" ><div id="inside"></div></div> -->
+<!-- <center><input type="button" value="click me" id="img" onclick="shyam2()"></center> -->
+<center><h1>Enter this form</h1></center>
+<center><p>name</p></center>
+<center><input type="text" id="ram" placeholder="enter your name"></center>
+<center><p>password</p></center>
+<center><input type="text" id="jai" placeholder="enter your password"><br><br></center>
+<center><input id="box1" type="button" value="submit" onclick="shyam()" ondblclick="shyam3()"></center>
+<button id="box" type="reset" value="submit">Reset</button>
+<br>
+<br>
+<div id="ramji"></div>
+</form>
+</body>
+</html>
